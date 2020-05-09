@@ -1,0 +1,10 @@
+[package]
+name = "test-hyper"
+version = "0.1.0"
+authors = ["daxpedda <daxpedda@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.13"
+futures = "0.3"
+tokio = { version = "0.2", features = ["io-util", "macros", "rt-threaded"] }
